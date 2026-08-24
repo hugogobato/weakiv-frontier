@@ -1,0 +1,76 @@
+[
+ {
+  "notebook": "NB00R.ipynb",
+  "retry_of": "NB00",
+  "cells": [
+   "n2000_a0.9_p1"
+  ],
+  "experiments": [
+   "phase3_size_grid"
+  ],
+  "pred_h": 3.28,
+  "expected_h": 6.0
+ },
+ {
+  "notebook": "NB01R.ipynb",
+  "retry_of": "NB01",
+  "cells": [
+   "n2000_a0.9_p2"
+  ],
+  "experiments": [
+   "phase3_size_grid"
+  ],
+  "pred_h": 3.28,
+  "expected_h": 6.3
+ },
+ {
+  "notebook": "NB02R.ipynb",
+  "retry_of": "NB02",
+  "cells": [
+   "n2000_a0.9_p5"
+  ],
+  "experiments": [
+   "phase3_size_grid"
+  ],
+  "pred_h": 3.28,
+  "expected_h": 5.2
+ },
+ {
+  "notebook": "NB03R.ipynb",
+  "retry_of": "NB03",
+  "cells": [
+   "n2000_a0.9_p25"
+  ],
+  "experiments": [
+   "phase3_size_grid"
+  ],
+  "pred_h": 3.28,
+  "expected_h": 6.2
+ },
+ {
+  "notebook": "NB04R.ipynb",
+  "retry_of": "NB04",
+  "cells": [
+   "n2000_a0.9_p100"
+  ],
+  "experiments": [
+   "phase3_size_grid"
+  ],
+  "pred_h": 3.28,
+  "expected_h": 6.7
+ },
+ {
+  "notebook": "NB12R.ipynb",
+  "retry_of": "NB12",
+  "cells": [
+   "n2000_a0.5_p2",
+   "n2000_a0.5_p25",
+   "n2000_a0.5_p5"
+  ],
+  "experiments": [
+   "phase3_size_grid"
+  ],
+  "pred_h": 3.18,
+  "expected_h": 11.1
+ }
+]
