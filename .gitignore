@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+v/
+cache/
+
+# Project artifacts that stay local (never shipped in the repo)
+Research/weakiv_results/
+Research/weakiv_notes/smoke_run/
+Research/weakiv_notes/figs/
+Research/weakiv_notes/external_papers/
+Research/weakiv_notes/colab_plan.csv
+Research/WeakIV_Evidence_Register.md
+Research/weakiv_notes/*.md
+!Research/weakiv_notes/notebooks/
+Research/weakiv_notes/scripts/bench_*.log
+
+# OS
+.DS_Store

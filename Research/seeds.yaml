@@ -1,0 +1,22 @@
+# Master seed manifest for the Weak-Instrument Frontier project (Idea 2)
+# Convention (frozen in formalization_memo.md Section 1):
+#   every stochastic step draws from spectraliv.rng.stream / cell_stream:
+#     stream(master_seed, experiment, cell_id)            per-cell generator
+#     stream(master_seed, experiment, cell_id, "repK")    per-replication
+#   spec_test's internal CV stream: stream(master, "spec_test_cv", cell_id)
+master_seed: 20260823
+
+experiments:
+  phase1_o1_witness:   {executed: 2026-08-23, note: "see weakiv_results/phase1_o1/manifest.json"}
+  phase1_o2_witness:   {executed: 2026-08-23, note: "see weakiv_results/phase1_o2/manifest.json"}
+  phase2_smoke:        {B: 100, theta: 0.35, rho: 0.5, cells: [c1_n250_p1_q25, c2_n250_p2_q125, c3_n500_p5_q250, c4_n1000_p1_q700, c5_n1000_p25_q500, c6_n2000_p50_q1000]}
+  # --- amended by WP-P3-R0 2026-08-24 (pruned design; pre-prune values in weakiv_preregistration.md Section 9) ---
+  phase3_size_grid:    {B_default: 20000, B_at_n2000: 8000, cells: "n{250,500,1000,2000} x a{0.1..0.9} x p{1,2,5} (+p{25,100} at n>=1000), A3-filtered", cv_stream: "stream(master, exp, cell_id, 'cv') b_cal=4000", seed_policy: "cell_stream('phase3_size_grid', cell_id, repK)"}
+  phase3_power_surface:{B_per_theta: 300, thetas: [0.01, 0.02, 0.04, 0.07, 0.10, 0.15, 0.22, 0.32, 0.45, 0.62, 0.80, 0.93], rho: 0.0, r2_cell: n1000_a0.5_p25, seed_policy: "cell_stream('phase3_power_surface', cell_id_th{t}, repK)"}
+  phase3_decisive_grid:{B_default: 400, kappas: [0.5, 2.0], hetero: [none], thetas: [0.05, 0.10, 0.18, 0.28, 0.40, 0.55, 0.72, 0.88], beta_true: 0.5, cell_ids_embed_theta: true, seed_policy: "cell_stream('phase3_decisive_grid', cell_id_th{t}, repK)"}
+  phase3_robustness:   {B_unpatched: 4000, B_patch: 250, b_boot: 99, violations: [hetero_mild, hetero_severe, heavy_v, heavy_eps, clustered], seed_policy: "cell_stream('phase3_robustness', cell_id, repK); boot stream adds 'boot' key"}
+
+rules:
+  - every result row carries (experiment, cell_id, seed)
+  - seeds are never reused across experiments (stream paths differ by name)
+  - any deviation from a preregistered seed list is appended to the deviations log, never edited in place

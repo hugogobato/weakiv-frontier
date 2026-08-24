@@ -1,0 +1,152 @@
+[
+ {
+  "notebook": "NB00.ipynb",
+  "cells": 5,
+  "predicted_h": 6.0,
+  "experiments": [
+   "phase3_decisive_grid",
+   "phase3_robustness",
+   "phase3_scaling",
+   "phase3_size_grid"
+  ]
+ },
+ {
+  "notebook": "NB01.ipynb",
+  "cells": 7,
+  "predicted_h": 7.87,
+  "experiments": [
+   "phase3_decisive_grid",
+   "phase3_robustness",
+   "phase3_size_grid"
+  ]
+ },
+ {
+  "notebook": "NB02.ipynb",
+  "cells": 7,
+  "predicted_h": 6.92,
+  "experiments": [
+   "phase3_decisive_grid",
+   "phase3_robustness",
+   "phase3_size_grid"
+  ]
+ },
+ {
+  "notebook": "NB03.ipynb",
+  "cells": 7,
+  "predicted_h": 6.94,
+  "experiments": [
+   "phase3_decisive_grid",
+   "phase3_robustness",
+   "phase3_size_grid"
+  ]
+ },
+ {
+  "notebook": "NB04.ipynb",
+  "cells": 7,
+  "predicted_h": 6.0,
+  "experiments": [
+   "phase3_decisive_grid",
+   "phase3_size_grid"
+  ]
+ },
+ {
+  "notebook": "NB05.ipynb",
+  "cells": 5,
+  "predicted_h": 2.22,
+  "experiments": [
+   "phase3_decisive_grid",
+   "phase3_power_surface"
+  ]
+ },
+ {
+  "notebook": "NB06.ipynb",
+  "cells": 9,
+  "predicted_h": 6.0,
+  "experiments": [
+   "phase3_decisive_grid"
+  ]
+ },
+ {
+  "notebook": "NB07.ipynb",
+  "cells": 9,
+  "predicted_h": 6.0,
+  "experiments": [
+   "phase3_decisive_grid"
+  ]
+ },
+ {
+  "notebook": "NB08.ipynb",
+  "cells": 15,
+  "predicted_h": 6.0,
+  "experiments": [
+   "phase3_decisive_grid"
+  ]
+ },
+ {
+  "notebook": "NB09.ipynb",
+  "cells": 24,
+  "predicted_h": 5.99,
+  "experiments": [
+   "phase3_decisive_grid",
+   "phase3_power_surface"
+  ]
+ },
+ {
+  "notebook": "NB10.ipynb",
+  "cells": 44,
+  "predicted_h": 5.99,
+  "experiments": [
+   "phase3_decisive_grid"
+  ]
+ },
+ {
+  "notebook": "NB11.ipynb",
+  "cells": 59,
+  "predicted_h": 5.9,
+  "experiments": [
+   "phase3_decisive_grid",
+   "phase3_power_surface",
+   "phase3_size_grid"
+  ]
+ },
+ {
+  "notebook": "NB12.ipynb",
+  "cells": 8,
+  "predicted_h": 5.93,
+  "experiments": [
+   "phase3_size_grid"
+  ]
+ },
+ {
+  "notebook": "NB13.ipynb",
+  "cells": 9,
+  "predicted_h": 5.95,
+  "experiments": [
+   "phase3_size_grid"
+  ]
+ },
+ {
+  "notebook": "NB14.ipynb",
+  "cells": 9,
+  "predicted_h": 5.97,
+  "experiments": [
+   "phase3_size_grid"
+  ]
+ },
+ {
+  "notebook": "NB15.ipynb",
+  "cells": 24,
+  "predicted_h": 5.88,
+  "experiments": [
+   "phase3_size_grid"
+  ]
+ },
+ {
+  "notebook": "NB16.ipynb",
+  "cells": 16,
+  "predicted_h": 2.76,
+  "experiments": [
+   "phase3_size_grid"
+  ]
+ }
+]
