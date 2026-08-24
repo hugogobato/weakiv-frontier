@@ -559,4 +559,4 @@ Sources marked with flag comments carry no verified URL/DOI yet and must be reso
 
 ---
 
-*End of plan. Current state: Phase 1 COMPLETE (G0/G1 GO, see Research/weakiv_notes/gate_review_G0_G1.md); Phase 2 COMPLETE (G2 GO with WP-P3-R0 grid-pruning condition, see Research/weakiv_notes/gate_review_G2.md); Phase 3 dormant until the preregistration memo resolves the notebook-budget flag.*
+*End of plan. Current state: Phase 1 COMPLETE (G0/G1 GO, see Research/weakiv_notes/gate_review_G0_G1.md); Phase 2 COMPLETE (G2 GO, see Research/weakiv_notes/gate_review_G2.md); Phase 3 ACTIVE: WP-P3-R0 COMPLETE (Research/weakiv_preregistration.md v1.0, G2 pruning condition discharged; ~98 serial hours across 17 Colab notebooks ready at github.com/hugogobato/weakiv-frontier), decisive runs pending notebook execution; WP-P3-M1 (gate memo G3) waits on complete checksum-validated merges.*
