@@ -1,0 +1,3 @@
+cell_id,n,p,q,violation,patch,size_5pct,ar_cov_95,B,seed
+hetero_severe_p5,1000,5,500,hetero_severe,none,0.04925,0.943,4000,20260823
+hetero_severe_p5,1000,5,500,hetero_severe,wild_boot,0.0,,250,20260823

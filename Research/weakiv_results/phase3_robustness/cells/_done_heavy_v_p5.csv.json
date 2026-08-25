@@ -1,0 +1,8 @@
+{
+ "csv": "heavy_v_p5.csv",
+ "sha256": "f9842484761d8b78d9e294bf872b7a4b1b143666dff8764bb3128dd24ac174f0",
+ "wall_s": 600.5840973854065,
+ "b_boot": 99,
+ "patch_reps": 250,
+ "big_b": 4000
+}

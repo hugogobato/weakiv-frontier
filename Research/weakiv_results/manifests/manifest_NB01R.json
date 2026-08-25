@@ -1,0 +1,25 @@
+{
+ "notebook_id": "NB01R",
+ "git_sha": "fb96c4fc383446390343714fa97090a58d90c69f",
+ "package_version": "0.1.0",
+ "master_seed": 20260823,
+ "b_params": {
+  "phase3_size_grid": 20000,
+  "phase3_power_surface": 300,
+  "phase3_decisive_grid": 400,
+  "phase3_robustness": 4000
+ },
+ "patch_params": {
+  "patch_reps": 250,
+  "b_boot": 99
+ },
+ "cells": [
+  "n2000_a0.9_p2"
+ ],
+ "timings_s": [
+  [
+   "n2000_a0.9_p2",
+   37037.9
+  ]
+ ]
+}

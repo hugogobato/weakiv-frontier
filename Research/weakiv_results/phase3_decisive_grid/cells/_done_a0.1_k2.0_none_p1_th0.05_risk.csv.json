@@ -1,0 +1,20 @@
+{
+ "csv": "a0.1_k2.0_none_p1_risk.csv",
+ "sha256": "f047923f3395d6cb123a35edfce4a06a1b6b1a2f15dd25b1b2d260693cf81dba",
+ "wall_s": 17.221875190734863,
+ "rho_env": 0.44258639910813824,
+ "delta": 0.1,
+ "rho_hi": 0.894,
+ "b_cal_cv": 4000,
+ "reps": 400,
+ "estimators": [
+  "tsls",
+  "liml",
+  "fuller",
+  "bekker",
+  "jive",
+  "whiten",
+  "pca_l",
+  "trunc_k1"
+ ]
+}

@@ -1,0 +1,102 @@
+{
+ "x3_by_alpha": {
+  "0.1": {
+   "both": 0,
+   "f_bad": 16,
+   "env_ok": 2,
+   "n_eval": 18
+  },
+  "0.3": {
+   "both": 0,
+   "f_bad": 12,
+   "env_ok": 0,
+   "n_eval": 12
+  },
+  "0.5": {
+   "both": 0,
+   "f_bad": 8,
+   "env_ok": 0,
+   "n_eval": 8
+  },
+  "0.7": {
+   "both": 0,
+   "f_bad": 8,
+   "env_ok": 0,
+   "n_eval": 8
+  },
+  "0.9": {
+   "both": 0,
+   "f_bad": 6,
+   "env_ok": 0,
+   "n_eval": 6
+  }
+ },
+ "x4_worst": [
+  {
+   "cid": "a0.7_k2.0_none_p1_th0.72",
+   "bb": "bekker",
+   "bb_rmse": 0.0321680469526117,
+   "trunc_k1": 5.993103235136081,
+   "trunc_tauhat": 5.993103235136081,
+   "regime": false
+  },
+  {
+   "cid": "a0.7_k2.0_none_p1_th0.55",
+   "bb": "bekker",
+   "bb_rmse": 0.06086591865198404,
+   "trunc_k1": 5.379459200501391,
+   "trunc_tauhat": 5.379459200501391,
+   "regime": false
+  },
+  {
+   "cid": "a0.7_k2.0_none_p1_th0.88",
+   "bb": "bekker",
+   "bb_rmse": 0.014801425006322913,
+   "trunc_k1": 5.338288139940677,
+   "trunc_tauhat": 5.338288139940677,
+   "regime": false
+  },
+  {
+   "cid": "a0.5_k2.0_none_p1_th0.72",
+   "bb": "bekker",
+   "bb_rmse": 0.027320676327700938,
+   "trunc_k1": 5.3151280296773304,
+   "trunc_tauhat": 5.3151280296773304,
+   "regime": false
+  },
+  {
+   "cid": "a0.5_k2.0_none_p1_th0.55",
+   "bb": "bekker",
+   "bb_rmse": 0.04908931317215063,
+   "trunc_k1": 5.280546732084807,
+   "trunc_tauhat": 5.280546732084807,
+   "regime": false
+  },
+  {
+   "cid": "a0.9_k2.0_none_p1_th0.88",
+   "bb": "bekker",
+   "bb_rmse": 0.020379190214429504,
+   "trunc_k1": 4.865248700099765,
+   "trunc_tauhat": 4.865248700099765,
+   "regime": false
+  },
+  {
+   "cid": "a0.3_k2.0_none_p1_th0.55",
+   "bb": "bekker",
+   "bb_rmse": 0.036668257278078736,
+   "trunc_k1": 4.8400222105348325,
+   "trunc_tauhat": 4.8400222105348325,
+   "regime": false
+  },
+  {
+   "cid": "a0.3_k2.0_none_p1_th0.4",
+   "bb": "bekker",
+   "bb_rmse": 0.05799327818167169,
+   "trunc_k1": 4.79926081089828,
+   "trunc_tauhat": 4.79926081089828,
+   "regime": false
+  }
+ ],
+ "x4_regime_wins": 2,
+ "x4_violations": 76
+}

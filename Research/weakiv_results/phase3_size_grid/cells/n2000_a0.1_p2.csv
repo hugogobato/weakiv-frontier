@@ -1,0 +1,4 @@
+experiment,cell_id,n,p,q,alpha,cv_method,correction,rejects,B,seed
+phase3_size_grid,n2000_a0.1_p2,2000,2,200,0.1,exact_jacobi,johnstone2009,1004,20000,20260823
+phase3_size_grid,n2000_a0.1_p2,2000,2,200,0.1,tw,johnstone2009,1011,20000,20260823
+phase3_size_grid,n2000_a0.1_p2,2000,2,200,0.1,naive_chi2,none,3060,20000,20260823

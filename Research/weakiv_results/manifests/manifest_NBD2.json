@@ -1,0 +1,50 @@
+{
+ "notebook_id": "NBD2",
+ "git_sha": "b42e8f2a9840d39f2004c2abdf6ac198e7c123b6",
+ "package_version": "0.1.0",
+ "master_seed": 20260823,
+ "b_params": {
+  "phase3_size_grid": 20000,
+  "phase3_power_surface": 300,
+  "phase3_decisive_grid": 400,
+  "phase3_robustness": 4000
+ },
+ "patch_params": {
+  "patch_reps": 250,
+  "b_boot": 99
+ },
+ "cells": [
+  "a0.9_k2.0_none_p5_th0.05",
+  "a0.9_k2.0_none_p5_th0.1",
+  "a0.9_k2.0_none_p5_th0.18",
+  "a0.9_k2.0_none_p5_th0.28",
+  "a0.9_k2.0_none_p5_th0.4",
+  "a0.9_k2.0_none_p5_th0.72"
+ ],
+ "timings_s": [
+  [
+   "a0.9_k2.0_none_p5_th0.05",
+   3340.0
+  ],
+  [
+   "a0.9_k2.0_none_p5_th0.1",
+   3315.0
+  ],
+  [
+   "a0.9_k2.0_none_p5_th0.18",
+   3299.8
+  ],
+  [
+   "a0.9_k2.0_none_p5_th0.28",
+   3291.6
+  ],
+  [
+   "a0.9_k2.0_none_p5_th0.4",
+   3304.4
+  ],
+  [
+   "a0.9_k2.0_none_p5_th0.72",
+   3305.1
+  ]
+ ]
+}

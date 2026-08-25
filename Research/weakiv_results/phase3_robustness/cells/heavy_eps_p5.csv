@@ -1,0 +1,2 @@
+cell_id,n,p,q,violation,patch,size_5pct,ar_cov_95,B,seed
+heavy_eps_p5,1000,5,500,heavy_eps,none,0.05,0.94425,4000,20260823

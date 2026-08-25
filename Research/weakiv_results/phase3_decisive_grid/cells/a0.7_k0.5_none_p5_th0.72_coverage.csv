@@ -1,0 +1,4 @@
+cell_id,n,p,q,alpha,kappa,het,rule,ar_cov_95,n_flagged,B,seed
+a0.7_k0.5_none_p5,2000,5,1399,0.7,0.5,none,F>10,0.0,400,400,20260823
+a0.7_k0.5_none_p5,2000,5,1399,0.7,0.5,none,KP_rk>10,0.0,400,400,20260823
+a0.7_k0.5_none_p5,2000,5,1399,0.7,0.5,none,spectral_env,0.0,400,400,20260823

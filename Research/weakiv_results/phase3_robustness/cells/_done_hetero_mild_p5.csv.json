@@ -1,0 +1,8 @@
+{
+ "csv": "hetero_mild_p5.csv",
+ "sha256": "df6bc27381aca3c3a4e7c1617fb900a52f851a12d04385d761f4b3510d613d45",
+ "wall_s": 2772.7348408699036,
+ "b_boot": 99,
+ "patch_reps": 250,
+ "big_b": 4000
+}

@@ -8,7 +8,6 @@ v/
 cache/
 
 # Project artifacts that stay local (never shipped in the repo)
-Research/weakiv_results/
 Research/weakiv_notes/smoke_run/
 Research/weakiv_notes/figs/
 Research/weakiv_notes/external_papers/

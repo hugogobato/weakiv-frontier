@@ -1,0 +1,65 @@
+{
+ "notebook_id": "NB06",
+ "git_sha": "b4e10edf9fdd0a88b664f7cd0dca789398ba6129",
+ "package_version": "0.1.0",
+ "master_seed": 20260823,
+ "b_params": {
+  "phase3_size_grid": 20000,
+  "phase3_power_surface": 300,
+  "phase3_decisive_grid": 400,
+  "phase3_robustness": 4000
+ },
+ "patch_params": {
+  "patch_reps": 250,
+  "b_boot": 99
+ },
+ "cells": [
+  "a0.5_k2.0_none_p1_th0.55",
+  "a0.9_k0.5_none_p1_th0.55",
+  "a0.9_k0.5_none_p1_th0.72",
+  "a0.9_k2.0_none_p5_th0.05",
+  "a0.9_k2.0_none_p5_th0.1",
+  "a0.9_k2.0_none_p5_th0.18",
+  "a0.9_k2.0_none_p5_th0.28",
+  "a0.9_k2.0_none_p5_th0.4",
+  "a0.9_k2.0_none_p5_th0.55"
+ ],
+ "timings_s": [
+  [
+   "a0.5_k2.0_none_p1_th0.55",
+   197.7
+  ],
+  [
+   "a0.9_k0.5_none_p1_th0.55",
+   689.0
+  ],
+  [
+   "a0.9_k0.5_none_p1_th0.72",
+   692.8
+  ],
+  [
+   "a0.9_k2.0_none_p5_th0.05",
+   3796.5
+  ],
+  [
+   "a0.9_k2.0_none_p5_th0.1",
+   3817.1
+  ],
+  [
+   "a0.9_k2.0_none_p5_th0.18",
+   3740.2
+  ],
+  [
+   "a0.9_k2.0_none_p5_th0.28",
+   3709.6
+  ],
+  [
+   "a0.9_k2.0_none_p5_th0.4",
+   3664.8
+  ],
+  [
+   "a0.9_k2.0_none_p5_th0.55",
+   3639.4
+  ]
+ ]
+}

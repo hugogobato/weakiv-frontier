@@ -1,0 +1,15 @@
+cell_id,n,p,q,violation,patch,size_5pct,ar_cov_95,B,seed
+hetero_mild_p1,1000,1,500,hetero_mild,none,0.04925,0.94375,4000,20260823
+hetero_mild_p1,1000,1,500,hetero_mild,wild_boot,0.0,,250,20260823
+hetero_severe_p1,1000,1,500,hetero_severe,none,0.05725,0.9505,4000,20260823
+hetero_severe_p1,1000,1,500,hetero_severe,wild_boot,0.0,,250,20260823
+heavy_v_p1,1000,1,500,heavy_v,none,0.052,0.9535,4000,20260823
+heavy_eps_p1,1000,1,500,heavy_eps,none,0.04775,0.95,4000,20260823
+clustered_p1,1000,1,500,clustered,none,0.0535,0.95025,4000,20260823
+hetero_mild_p5,1000,5,500,hetero_mild,none,0.0465,0.94575,4000,20260823
+hetero_mild_p5,1000,5,500,hetero_mild,wild_boot,0.0,,250,20260823
+hetero_severe_p5,1000,5,500,hetero_severe,none,0.04925,0.943,4000,20260823
+hetero_severe_p5,1000,5,500,hetero_severe,wild_boot,0.0,,250,20260823
+heavy_v_p5,1000,5,500,heavy_v,none,0.05375,0.944,4000,20260823
+heavy_eps_p5,1000,5,500,heavy_eps,none,0.05,0.94425,4000,20260823
+clustered_p5,1000,5,500,clustered,none,0.04475,0.9465,4000,20260823
