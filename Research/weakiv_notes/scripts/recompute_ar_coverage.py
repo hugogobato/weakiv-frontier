@@ -80,7 +80,8 @@ def process_cell(args_tuple):
         sy = np.std(yr, ddof=1)
         ys = yr / sy
         chol = np.linalg.cholesky(zs.T @ zs)
-        b_std = np.full(p, 0.5) / resc          # beta_orig / (sy/sx) per col
+        b_orig = np.zeros(len(resc)); b_orig[0] = 0.5   # y = 0.5*x1 + eps
+        b_std = b_orig / resc                            # standardized null
         f_crit = float(fdist.ppf(0.95, q, n - q))
         out[b] = ar_stat(xs, zs, ys, chol, b_std) <= f_crit
     return cid, out

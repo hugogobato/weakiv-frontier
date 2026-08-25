@@ -72,7 +72,9 @@ def process(cid, reps):
         sy = np.std(yr, ddof=1)
         ys = yr / sy
         chol = np.linalg.cholesky(zs.T @ zs)
-        e = ys - xs @ (np.full(p, 0.5) / resc)
+        # true coefficient vector is (beta, 0, ..., 0): y = beta*x1 + eps
+        b_orig = np.zeros(p); b_orig[0] = 0.5
+        e = ys - xs @ (b_orig / resc)
         w_e = np.linalg.solve(chol, zs.T @ e)
         num = max(float(w_e @ w_e), 1e-300)
         den = max(float(e @ e) - num, 1e-300)
